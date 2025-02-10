@@ -70,6 +70,12 @@ To create a Project in Azure AI Foundry, follow these steps:
 5. review + create
 
 
+**The following Azure resource will be created**:
+|Resource | Type |
+|:---| :---|
+|ai-proj-demo-yw-uno|Microsoft.MachineLearningServices/workspaces|
+
+
 #### 3 Go to the Azure AI Foundry Project
 * In Azure portal, goto the Azure AI Foundry Project `ai-demo-<yourname>-uno` 
 * Overview
