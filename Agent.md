@@ -17,19 +17,70 @@ Prerequisites
 * An Azure subscription
 * Your Azure Portal User have "Azure AI Developer" assigned
 
-To create a project in Azure AI Foundry, follow these steps:
+#### 1 Create a resource groups
+* resource groups in the Azure portal search
+* create
+* "rg-ai-sandbox-<yourname>-uno"
+* Region: East US
+* Review + Create
+* Create
 
-1. Go to Azure AI Foundry. If you are in a project, select Azure AI Foundry at the top left of the page to go to the Home page.
+#### 2 Create a AI Hub in Azure AI Foundry
+Hub: Grouping container for projects. Provides security, connectivity, and compute management.
 
-2. Select + Create project.
+To create a Hub in Azure AI Foundry, follow these steps:
 
-3. Enter a name for the project.
+1. Go to Azure AI Foundry
 
-4. If you have a hub, you'll see the one you most recently used selected.
+2. Select + "Create v" -> Hub.
 
-5. If you have access to more than one hub, you can select a different hub from the dropdown.
+3. select resource group `rg-ai-sandbox-<yourname>-uno`
 
-6. If you want to create a new one, select Create new hub and supply a name. If you want to customize the default values, see the Azure AI Foundry documentation.
+4. select Create new hub, 
+    * Resource group: `rg-ai-sandbox-<yourname>-uno`
+    * region: East US 2
+    * Name: `ai-hub-demo-<yourname>-uno`
+    * Connect AI Service -> Create new -> `aihubdemo<yourname>uno` -> save
+    * next storage
+    * storage -> Create new -> `aihubdemo<yourname>uno` -> LRS -> save
+    * key valut -> Create new -> `aihubdemo<yourname>uno`
+    -> review + create
+
+**The following Azure resource will be created**:
+|Resource | Type |
+|:---| :---|
+|ai-hub-demo-yingding-uno|Microsoft.MachineLearningServices/workspaces|
+|aihubdemoywuno|Microsoft.CognitiveServices/accounts|
+|aihubdemoywuno|Key vault|
+|aihubdemoywuno|Storage account|
+
+#### 3 Create a AI Project in Azure AI Foundry
+Project: Collaborate, organize, and track work to build AI apps.
+
+To create a Project in Azure AI Foundry, follow these steps:
+
+1. Go to Azure AI Foundry
+
+2. Select + "Create v" -> Project.
+
+3. select resource group `rg-ai-sandbox-<yourname>-uno`, Enter a name for the project `ai-proj-demo-<yourname>-uno` 
+
+4. select hub: `ai-hub-demo-<yourname>-uno`
+
+5. review + create
+
+
+#### 3 Go to the Azure AI Foundry Project
+* In Azure portal, goto the Azure AI Foundry Project `ai-demo-<yourname>-uno` 
+* Overview
+* Launch Azure AI Foundry
+
+
+
+
+
+
+
 
 
 
@@ -38,3 +89,9 @@ To create a project in Azure AI Foundry, follow these steps:
 * AI Foundry Agents Overview: https://learn.microsoft.com/en-us/azure/ai-services/agents/overview
 * AI Foundry Quickstart with AI Foundry from Azure Portal UI https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=ai-foundry
 *RBAC role for Azure AI Foundry portal https://learn.microsoft.com/en-us/azure/ai-studio/concepts/rbac-ai-studio
+
+## Blogs
+* DeepSeek R1 available on Azure AI Foundry and Github https://techcommunity.microsoft.com/discussions/marketplace-forum/deepseek-r1---now-available-on-azure-ai-foundry-and-github/4372176
+
+
+
