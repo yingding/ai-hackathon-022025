@@ -43,6 +43,7 @@ From your Azure AI Foundry Project:
 
 * Agent playground in Azure AI Foundry: https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=ai-foundry#use-the-agent-playground
 
+* PromptFlow example: https://github.com/Azure-Samples/rag-data-openai-python-promptflow
 
 
 
