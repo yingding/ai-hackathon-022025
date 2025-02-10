@@ -39,6 +39,10 @@ From your Azure AI Foundry Project:
 ## References
 * GPT-4o-mini has tool calling feature https://techcommunity.microsoft.com/blog/azure-ai-services-blog/openai%E2%80%99s-gpt-4o-mini-now-available-in-api-with-vision-and-fine-tuning-text-capab/4200640
 
+* Agent playground in Azure AI Foundry: https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=ai-foundry#use-the-agent-playground
+
+
+
 
 
 
