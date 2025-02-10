@@ -17,6 +17,8 @@ Note:
 ```
 The agent model can execute function calling feature, only limited model has the capacity to use this feature.
 ```
+Models and region support AI agent: https://learn.microsoft.com/en-us/azure/ai-services/agents/concepts/model-region-support
+
 
 2. Customize the TPM rate limit to be `> 300K`
 ![](imgs/gpt_40_mini_deployment.png)
