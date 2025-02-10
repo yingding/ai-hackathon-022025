@@ -81,6 +81,11 @@ To create a Project in Azure AI Foundry, follow these steps:
 * Overview
 * Launch Studio
 
+1. From your project overview, select Agents, located under Build and customize.
+
+2. Select your Azure OpenAI service resource `aihubdemo<yourname>uno_aoai` -> click on `Let'S go`
+![](imgs/agent_aoai_svc_resource.png)
+
 
 
 
