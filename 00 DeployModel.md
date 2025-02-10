@@ -1,9 +1,8 @@
-## Agent in Azure AI Foundry
+# Deploy LLM model in Azure AI Foundry
 
-## What is an AI Agent?
-
-Within Azure AI Foundry, an AI Agent acts as a "smart" microservice that can be used to answer questions (RAG), perform actions, or completely automate workflows. It achieves this by combining the power of generative AI models with tools that allow it to access and interact with real-world data sources
-[[AI Agent Definition]](https://learn.microsoft.com/en-us/azure/ai-services/agents/overview#what-is-an-ai-agent).
+@author: Yingding Wang\
+@date: 10.02.2025\
+@revision: 1
 
 ## Quickstart guide
 
@@ -86,16 +85,35 @@ To create a Project in Azure AI Foundry, follow these steps:
 2. Select your Azure OpenAI service resource `aihubdemo<yourname>uno_aoai` -> click on `Let'S go`
 ![](imgs/agent_aoai_svc_resource.png)
 
+3. Select a model deployment for the Agent to use.
+
+4. Goto model catalog, search "DeepSeek"
+![](imgs/model_catalog_deep_seek.png)
+
+5. Click on "DeepSeek R1"
+    * Deploy
+    * Agree and Procceed
+  ![](imgs/deepseek_deploy_1.png)
+
+    * Customize 
+    ![](imgs/deepseek_deploy_2.png)
+
+    * Content filter: DefaultV2
+    ![](imgs/deepseek_deploy_3.png)
+    * Deploy
 
 
+6. Play with "Deep Seek R1" via Playground
 
-
-
-
-
-
-
-
+    * Models + endpints
+    * DeepSeek R1
+    * Open in playground
+    ![](imgs/playground_deepseek_1.png)
+   
+    * chat with DeepSeek R1 
+    * Type in the query "hi, who are you?"
+    ![](imgs/playground_deepseek_2.png)
+   
 
 ## Reference
 
