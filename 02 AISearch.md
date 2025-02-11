@@ -7,7 +7,7 @@
 5. Create Azure AI Search resource
 6. Index from AI foundry storage data with Azure AI Search resource 
 
-## registering the Microsoft.Web provider for your subscription
+## registering the Microsoft.Web and Microsoft.OperationalInsights provider for your subscription
 Microsoft.Web provider is required for services like App Services, Web Apps, Functions, and other related services.
 
 1.	Login to Azure Portal
@@ -16,7 +16,7 @@ Microsoft.Web provider is required for services like App Services, Web Apps, Fun
 
 3.	In Settings, Resource Providers	of your subscription
 
-4.	Search for Microsoft.Web
+4.	Search for Microsoft.Web, Microsoft.OperationalInsights
 
 5.	Select, click on the elipse and Register the Provider
 
