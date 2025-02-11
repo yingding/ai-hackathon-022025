@@ -115,6 +115,45 @@ To create a Project in Azure AI Foundry, follow these steps:
     ![](imgs/playground_deepseek_2.png)
    
 
+## (Optional) Update identity-based storage account access
+
+TODO:
+
+
+## can not access the promptflow
+
+1. AI hub
+Settings -> Properties -> Storage account access -> identity-based -> save
+
+2. Disable shared key on storage account
+storage account for AI Hub
+* Settings - Configuration -> Allow storage account key access (disabled)
+* IAM -> Add role assignment
+* Choose the roles: 
+-> Storage Blob Data Contributor
+-> Storage File Data Privileged Contributor
+to your current user.
+
+Now you shall have access to the promptflow.
+
+Assign user with
+Storage Blob Data Contributor and Storage File Data Privileged Contributor roles
+
+```
+Important: When using identity-based authentication, "Storage Blob Data Contributor" and "Storage File Privileged Contributor" roles must be granted to individual users that need access on the storage account
+```
+
+Reason: The Storage access key has been disabled on the Storage account.
+if your company has a policy to disable it, you will need to find another way.
+
+Refer to this page for information on how to change the access to using Entra ID:
+
+https://learn.microsoft.com/en-gb/azure/ai-studio/how-to/disable-local-auth?tabs=portal#update-an-existing-hub
+
+
+* https://learn.microsoft.com/en-us/answers/questions/2114208/authentication-failed-when-creating-prompt-flow
+
+
 ## Reference
 
 * AI Foundry Agents Overview: https://learn.microsoft.com/en-us/azure/ai-services/agents/overview

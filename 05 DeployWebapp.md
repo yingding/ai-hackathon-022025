@@ -1,4 +1,6 @@
-# Create Azure AI Search
+# Deploy Webapp from Chat playground
+
+TODO: write
 
 1. create resource groups in US East2
 2. create storage account, blob storage, container
