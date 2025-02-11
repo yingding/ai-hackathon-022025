@@ -80,10 +80,10 @@ Note: if you don't get the desired response, try again.
 9. Test the REST API endpoint with
 * Test using Linux Bash:
 ```sh
-curl -X POST "https://ai-search-demo-yw-no.eastus2.inference.ml.azure.com/score" \
+curl -X POST "https://ai-search-demo-<your name>-no.eastus2.inference.ml.azure.com/score" \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer <your_api_key>" \
--H "azureml-model-deployment: ai-search-demo-yw-no-1" \
+-H "azureml-model-deployment: ai-search-demo-<your name>-no-1" \
 -d '{"query": "what is the insights of siemens fiscal report 2024?"}'
 ```
 
@@ -91,13 +91,13 @@ curl -X POST "https://ai-search-demo-yw-no.eastus2.inference.ml.azure.com/score"
 
 ```powershell
 # Define the API endpoint URL
-$url = "https://ai-search-demo-yw-no.eastus2.inference.ml.azure.com/score"
+$url = "https://ai-search-demo-<your name>-no.eastus2.inference.ml.azure.com/score"
 
 # Define the request headers
 $headers = @{
     "Content-Type" = "application/json"
     "Authorization" = "Bearer <your_api_key>"  # Replace <your_api_key> with your actual API key
-    "azureml-model-deployment" = "ai-search-demo-yw-no-1"
+    "azureml-model-deployment" = "ai-search-demo-<your name>-no-1"
 }
 
 # Define the request body, the query param is defined as arg for the promptflow inputs
