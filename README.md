@@ -1,10 +1,17 @@
-# ai-hackathon-022025
-Azure AI Foundry agents code for the copilot studio and Azure AI integration hackathon Feb 2025
+# Agenda 
 
+this is the Agenda of Hackathon "AI Integration Copilot and Azure AI Foundry" on Feb. 2025
 
-Build an single AI agent with:
-* Azure AI Search indexed on Azure Blog
-* Agent with Azure AI Foundry AI agent (Public Beta)
+## Table of Content
 
-## Intro
+## Part 1: Azure AI Foundry
+Hackathon content
+1. [Deploy Azure AI Foundry resources on Azure Subscription](./01%20GetStarted.md)
+2. [Deploy Azure AI Search resources on Azure Subscription](./02%20AISearch.md)
+3. [Deploy Models using Azure AI Foundry](./03%20DeployModels.md)
+4. [Deploy single Agent workflow with PromptFlow](./04%20SingleAgentFlow.md)
+
+Optional homeworks
+* [Deploy WebApp from Azure AI Foundry](./05%20DeployWebapp.md)
+* [A preview of Azure AI Foundry Agent Playground](06%20AgentPreview.md)
 
