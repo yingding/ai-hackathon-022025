@@ -1,4 +1,4 @@
-# Deploy LLM model in Azure AI Foundry
+# Get started with Azure AI Foundry
 
 @author: Yingding Wang\
 @date: 10.02.2025\
