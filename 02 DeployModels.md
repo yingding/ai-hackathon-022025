@@ -66,8 +66,26 @@
     * Blob store: `my_catalog_data`
     * Choose file to index
     * Next
+
 ![](imgs/add_index_to_project.png)
 
+2. Connect to the existing Azure AI search resource
+
+![](imgs/connect_ai_search_resource.png)
+
+3. Add connection to `svc-ai-search-<your name>-uno`
+
+![](imgs/add_ai_search_connection.png)
+
+4. Select the ai search service `svcaisearch<your name>uno`
+    * Next
+![](imgs/select_ai_search_connection.png)
+
+5. In the Search setting, click on Next
+   
+![](imgs/search_settings_text_embedding_ada.png)
+
+6. Create Vector Index
 
 
 ## Playground with Azure AI Search
@@ -77,9 +95,16 @@
 ![](imgs/open_gpt4o_in_playground.png)
 
 2. Click on the "add a new data source"
-
 ![](imgs/playground_add_your_data.png)
 
+3. Add project index to the playground model
+* In `Add your data` section, select available project index created previously.
+![](imgs/add_project_index_playground.png)
+
+4. Clear chat and query `what is inside siemens report?`
+
+
+<!--
 3. In the "Add your data" plane:
 * Data source: Azure Blob Storage
 * Blob storage: my_catalog_data
@@ -87,25 +112,7 @@
 * Click on "Next" 
 
 ![](imgs/playground_add_your_data_from_blobstore.png)
-
-4. Connect to the existing Azure AI search resource
-
-![](imgs/connect_ai_search_resource.png)
-
-5. Add connection to `svc-ai-search-<your name>-uno`
-
-![](imgs/add_ai_search_connection.png)
-
-6. Select the ai search service `svcaisearch<your name>uno`
-    * Next
-![](imgs/select_ai_search_connection.png)
-
-7. In the Search setting, click on Next
-   
-![](imgs/search_settings_text_embedding_ada.png)
-
-8. Create Vector Index
-
+-->
 
 
 Reference:
