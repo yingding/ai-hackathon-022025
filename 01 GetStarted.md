@@ -117,7 +117,9 @@ To create a Project in Azure AI Foundry, follow these steps:
 
 ## (Optional) Update identity-based storage account access
 
-TODO:
+Should you encounter the issue that you can not access the storage account for  the Azure AI Foundry Project. Please double check if the `storage account key accesss` of your AI hub storage account (`aihubdemo<your name>uno`) is deactivated by default.
+
+
 
 
 ## can not access the promptflow
