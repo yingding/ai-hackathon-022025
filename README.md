@@ -12,6 +12,6 @@ Hackathon content
 4. [Deploy single Agent workflow with PromptFlow](./04%20SingleAgentFlow.md)
 
 Optional homeworks (WIP)
-* [Deploy WebApp from Azure AI Foundry]()
-* [A preview of Azure AI Foundry Agent Playground]()
+* Deploy WebApp from Azure AI Foundry
+* A preview of Azure AI Foundry Agent Playground
 
