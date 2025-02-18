@@ -43,7 +43,7 @@
 * In the "add your data" panel, `+ New connect`
     * Service: Azure Blob storage
     * Storage account: `sasandbox<yourname>uno`
-    * Blog container: ``Catalogs`
+    * Blog container: `Catalogs`
     * Authentication method: `Credential based`
     * Authentication type: Account key
     * Account key: `<copy account key> for the storage account`
