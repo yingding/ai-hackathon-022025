@@ -124,40 +124,25 @@ Should you encounter the issue that you can not access the storage account for  
 * Open `Configuration` tab under `Settings` menu
 * double check whether `Allow storage account key access` is disabled.
 
+Should `Allow storage account key access` is disabled for your AI hub storage account  (`aihubdemo<your name>uno`)
 
+2. Set AI hub to use `identity-based` storage account access
+* Navigate in Azure portal to the resource AI hub `ai-hub-demo-<yourname>-uno`
+* Under `Settings`, choose `Properties` section
+* Set `Storage account access` to `identtiy-based`
+* save
 
-## can not access the promptflow
+3. Add **every** of your AI-hub / AI project user with RBAC role to access the default AI-hub storage account
+* Open your AI hub storage account (`aihubdemo<your name>uno`) from Azure Portal
+* Navigate to `IAM` plane
+* click on the menu `Add role assignment` on the top of the `IAM` plane
+* Choose and add the roles `Storage Blob Data Contributor` and `Storage File Data Privileged Contributor` to all your AI-hub / AI project user, who shall be able to access the default AI-hub storage
 
-1. AI hub
-Settings -> Properties -> Storage account access -> identity-based -> save
+Note:
+* AI hub storage access is needed, if your user need to create Promptflow for your AI project inside the Azure AI Foundry.
 
-2. Disable shared key on storage account
-storage account for AI Hub
-* Settings - Configuration -> Allow storage account key access (disabled)
-* IAM -> Add role assignment
-* Choose the roles: 
--> Storage Blob Data Contributor
--> Storage File Data Privileged Contributor
-to your current user.
-
-Now you shall have access to the promptflow.
-
-Assign user with
-Storage Blob Data Contributor and Storage File Data Privileged Contributor roles
-
-```
-Important: When using identity-based authentication, "Storage Blob Data Contributor" and "Storage File Privileged Contributor" roles must be granted to individual users that need access on the storage account
-```
-
-Reason: The Storage access key has been disabled on the Storage account.
-if your company has a policy to disable it, you will need to find another way.
-
-Refer to this page for information on how to change the access to using Entra ID:
-
-https://learn.microsoft.com/en-gb/azure/ai-studio/how-to/disable-local-auth?tabs=portal#update-an-existing-hub
-
-
-* https://learn.microsoft.com/en-us/answers/questions/2114208/authentication-failed-when-creating-prompt-flow
+Reason for this optional setting:
+* If the Storage access key has been disabled on the Storage account by your company policy in Azure tenant.
 
 
 ## Reference
@@ -165,6 +150,8 @@ https://learn.microsoft.com/en-gb/azure/ai-studio/how-to/disable-local-auth?tabs
 * AI Foundry Agents Overview: https://learn.microsoft.com/en-us/azure/ai-services/agents/overview
 * AI Foundry Quickstart with AI Foundry from Azure Portal UI https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=ai-foundry
 *RBAC role for Azure AI Foundry portal https://learn.microsoft.com/en-us/azure/ai-studio/concepts/rbac-ai-studio
+* Disable local auth for AI hub https://learn.microsoft.com/en-gb/azure/ai-studio/how-to/disable-local-auth?tabs=portal#update-an-existing-hub
+* Authentication failed while creating promptflow https://learn.microsoft.com/en-us/answers/questions/2114208/authentication-failed-when-creating-prompt-flow
 
 ## Blogs
 * DeepSeek R1 available on Azure AI Foundry and Github https://techcommunity.microsoft.com/discussions/marketplace-forum/deepseek-r1---now-available-on-azure-ai-foundry-and-github/4372176
