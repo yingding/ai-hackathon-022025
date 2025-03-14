@@ -66,6 +66,8 @@ https://learn.microsoft.com/en-gb/azure/ai-studio/how-to/disable-local-auth?tabs
 ## Reference
 * Deploy enterpise webapp: https://learn.microsoft.com/en-us/azure/ai-studio/tutorials/deploy-chat-web-app
 * Azure AI Search with Azure AI Foundry https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/04-Use-own-data.html
+* Follow this link to add Microsoft Privider (You shall link your Microsoft User first) https://learn.microsoft.com/en-us/azure/app-service/scenario-secure-app-authentication-app-service?tabs=workforce-configuration#3-configure-authentication-and-authorization
+
 
 ## Issue
 * Please verify that Microsoft.web provider is registered for the selected subscription.
