@@ -144,6 +144,12 @@ Note:
 Reason for this optional setting:
 * If the Storage access key has been disabled on the Storage account by your company policy in Azure tenant.
 
+## (Optional) Update Azure AI Service with additional roles
+1. Add your AI project user with RBAC role `Cognitive Services User` for `aihubdemo<your name>uno` Azure AI Service to allow project user to access content safety features and try out the testing
+
+Note:
+* with error ``Your account does not have access to this resource, ...` https://learn.microsoft.com/en-gb/azure/ai-services/content-safety/concepts/response-codes#azure-ai-foundry-error-messages
+
 
 ## Reference
 
@@ -152,6 +158,7 @@ Reason for this optional setting:
 *RBAC role for Azure AI Foundry portal https://learn.microsoft.com/en-us/azure/ai-studio/concepts/rbac-ai-studio
 * Disable local auth for AI hub https://learn.microsoft.com/en-gb/azure/ai-studio/how-to/disable-local-auth?tabs=portal#update-an-existing-hub
 * Authentication failed while creating promptflow https://learn.microsoft.com/en-us/answers/questions/2114208/authentication-failed-when-creating-prompt-flow
+* Azure AI Content Safety user role https://learn.microsoft.com/en-gb/azure/ai-services/content-safety/concepts/response-codes#azure-ai-foundry-error-messages
 
 ## Blogs
 * DeepSeek R1 available on Azure AI Foundry and Github https://techcommunity.microsoft.com/discussions/marketplace-forum/deepseek-r1---now-available-on-azure-ai-foundry-and-github/4372176
