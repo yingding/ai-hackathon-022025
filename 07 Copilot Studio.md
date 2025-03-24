@@ -7,4 +7,10 @@ Use the user credentials assigned to you to sign into the demo tenant. Set-Up th
 When you set up the MFA you can create a new user profile in browser so that you can log in again without having to enter the credentials.
 
 In Copilot Studio, you can create a new agent by description. Assure that you have selected your own personal developer environment.
+
  ![](main/imgs_mcs/pic1.jpg)
+
+ You can continue in the dialogue and enter decriptions or user "Skip to configure" button to use the configureation pane directly.
+ Upon finishing, press "Create" to create your agent.
+
+ ![](main/img_mcs/
