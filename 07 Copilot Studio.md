@@ -20,4 +20,12 @@ In Copilot Studio, you can create a new agent by description. Assure that you ha
 After your agent is created, enable GenAI orchestration and disable the feature "Allow the AI to use its own general knowledge."
 
 ![](main/imgs_mcs/GenAI_Setting.png)
+
+## Add an action to your agent
+
+### Create a custom connector 
+For your agent to connect to Azure Foundry endpoints, you need to create a custom connector.
+
+Go to [[Power Automate]](https://make.preview.poweruatomate.com)
+
  
