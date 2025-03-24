@@ -18,4 +18,6 @@ In Copilot Studio, you can create a new agent by description. Assure that you ha
  ![](main/imgs_mcs/create_agent.png)
 
 After your agent is created, enable GenAI orchestration and disable the feature "Allow the AI to use its own general knowledge."
+
+![](main/imgs_mcs/GenAI_Setting.png)
  
