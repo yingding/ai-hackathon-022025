@@ -13,4 +13,4 @@ In Copilot Studio, you can create a new agent by description. Assure that you ha
  You can continue in the dialogue and enter decriptions or user "Skip to configure" button to use the configureation pane directly.
  Upon finishing, press "Create" to create your agent.
 
- ![](main/img_mcs/
+ ![](main/img_mcs/skip to configure.jpg)
