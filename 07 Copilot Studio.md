@@ -15,4 +15,6 @@ In Copilot Studio, you can create a new agent by description. Assure that you ha
 
  ![](main/img_mcs/skip_to_configure.jpg)
 
+  ![](main/imgs_mcs/create_agent.png)
+
  
