@@ -1,0 +1,57 @@
+swagger: '2.0'
+info:
+  title: Yingding Jokes API
+  description: This connector is going to tell you a joke about any topic you choose.
+  version: 1.0.0
+host: ai-demo-yw-ep-uno.eastus2.inference.ml.azure.com
+schemes:
+  - https
+paths:
+  /score:
+    post:
+      summary: Tell a joke
+      description: This endpoint is providing you with a joke to a specific topic
+      operationId: Tell_joke
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: azureml-model-deployment
+          in: header
+          description: Name of the Azure ML model deployment.
+          required: true
+          type: string
+          default: ai-demo-yw-joki-uno-1
+        - in: body
+          name: body
+          description: JSON payload to send to the inference model.
+          required: true
+          schema:
+            type: object
+            properties:
+              topic:
+                type: string
+                example: atom
+            required:
+              - topic
+      responses:
+        '200':
+          description: Successful response from the inference model.
+          schema:
+            type: object
+            additionalProperties:
+              type: string
+        '400':
+          description: Bad Request. Missing or invalid parameters.
+        '401':
+          description: Unauthorized. Invalid API Key.
+        '500':
+          description: Internal Server Error.
+securityDefinitions:
+  api_key:
+    type: apiKey
+    in: header
+    name: Authorization
+security:
+  - api_key: []
