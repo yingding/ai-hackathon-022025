@@ -12,9 +12,10 @@ In Copilot Studio, you can create a new agent by description. Assure that you ha
 
  You can continue in the dialogue and enter decriptions or user "Skip to configure" button to use the configureation pane directly.
  Upon finishing, press "Create" to create your agent.
-
+ 
  ![](main/img_mcs/skip_to_configure.png)
 
  ![](main/imgs_mcs/create_agent.png)
 
+After your agent is created, enable GenAI orchestration and disable the feature "Allow the AI to use its own general knowledge."
  
