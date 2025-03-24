@@ -43,4 +43,8 @@ After you did this, hit "Create connector"
  ![](main/imgs_mcs/PA_customcon_create1.png)
 
  Switch the button "Swagger editor" on and copy the swagger file into the editor.
+ ![](main/imgs_mcs/PA_customcon_swagger.png)
+
+ Here is the file:
+ [swagger template](main/imgs_mcs/custom_connector_swagger_file_1.txt)
  
