@@ -35,4 +35,6 @@ Choose "Discover all" and turn on the "Connections", "Connectors" and  "Custom C
 
 ![](main/imgs_mcs/PA_discover_pin.png)
 
+Go to the menu point "custom connectors" and create a new one from blank. Enter a name "AI Joke Connector" or whatever you like.
+
  
