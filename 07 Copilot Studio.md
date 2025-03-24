@@ -37,4 +37,10 @@ Choose "Discover all" and turn on the "Connections", "Connectors" and  "Custom C
 
 Go to the menu point "custom connectors" and create a new one from blank. Enter a name "AI Joke Connector" or whatever you like.
 
+ ![](main/imgs_mcs/PA_customcon.png)
+
+After you did this, hit "Create connector"
+ ![](main/imgs_mcs/PA_customcon_create1.png)
+
+ Switch the button "Swagger editor" on and copy the swagger file into the editor.
  
