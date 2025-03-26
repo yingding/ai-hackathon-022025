@@ -57,11 +57,42 @@ Enter API Key in format Bearer <your api key> and hit "Create connection".
 Refresh the Connections and choose the one you just created. Enter the parameters:
 - model deployment name
 - topic
+
 and hit "Test operation"
 
 ![](main/imgs_mcs/PA_customcon_test.png)
 
 ### 2. Add a connector to your agent
 
-Now as the custom connector is working, you can add and use it in your agent
+Now as the custom connector is working, you can add and use it in your agent, which was previously created in Copilot Studio. Open the agent in Copilot Studio and hit the button "Add action"
+
+![](main/imgs_mcs/CS_add_action.png)
+
+Enter the name of your custom connector or pick up the category "Custom connector"
+
+![](main/imgs_mcs/CS_add_action_customcon.png)
+
+The system will ask for the connection, just confirm it as it was created in previous step and hit "Next". Ignore the warnings and hit "Add action".
+
+With this step the action was added to the agent. Now we have to configure it properly for orchestrator to use it in the right way.
+
+Go to the "Actions" tab and klick on your action. You will see 3 subtabs where you can enter "Details", "Inputs" and "Outputs"
+
+On the "Details" tab enter "Action name", "Display name" and "Description" in a way that it is easy recognizable when to use it.
  
+![](main/imgs_mcs/CS_add_action_details.png)
+
+Leave the remaining parameters as default.
+
+On the tab "Inputs" change the type of the first parameter into "Set as a value" and enter the name of you model into "Value" field. 
+
+In the "Topic" parameter adjust the display name and description acordingly.
+
+![](main/imgs_mcs/CS_add_action_input.png)
+
+
+In the output tab enter the description of the response parameter and choose the option "Send a message immediately after running this action" with "AI dynamically generated a message (default)"
+
+![](main/imgs_mcs/CS_add_action_output.png)
+
+Hit save and you are ready to go.
