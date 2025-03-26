@@ -19,8 +19,7 @@ In Copilot Studio, you can create a new agent by description. Assure that you ha
 
 After your agent is created, enable GenAI orchestration and disable the feature "Allow the AI to use its own general knowledge."
 
-![](main/imgs_mcs/GenAI_Setting.png)
-
+![](main/imgs_mcs/CS_genAI.png)
 ## Add an action to your agent
 
 ### 1. Create a custom connector 
@@ -95,4 +94,14 @@ In the output tab enter the description of the response parameter and choose the
 
 ![](main/imgs_mcs/CS_add_action_output.png)
 
-Hit save and you are ready to go.
+Hit save and you are ready to test the agent in a test pane.
+
+![](main/imgs_mcs/CS_final_test.png)
+
+If this is a first time, connect again to your connection and hit "Retry" in the test pane.
+
+![alt text](main/imgs_mcs/CS_final_test_con.png)
+
+![](main/imgs_mcs/CS_final_test_result.png)
+
+Congratulations! You have created your first agent in Copilot Studio, connected to Azure AI Foundry.
