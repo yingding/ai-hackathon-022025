@@ -23,7 +23,7 @@ After your agent is created, enable GenAI orchestration and disable the feature 
 
 ## Add an action to your agent
 
-### Create a custom connector 
+### 1. Create a custom connector 
 For your agent to connect to Azure Foundry endpoints, you need to create a custom connector.
 
 Go to [[Power Automate]](https://make.preview.powerautomate.com)
@@ -47,4 +47,21 @@ After you did this, hit "Create connector"
 
  Here is the file:
  [swagger template](main/imgs_mcs/custom_connector_swagger_file_1.txt)
+
+Move to the tab 6.Test and create a new connection
+
+![](main/imgs_mcs/PA_customcon_create_connection.png)
+
+Enter API Key in format Bearer <your api key> and hit "Create connection".
+
+Refresh the Connections and choose the one you just created. Enter the parameters:
+- model deployment name
+- topic
+and hit "Test operation"
+
+![](main/imgs_mcs/PA_customcon_test.png)
+
+### 2. Add a connector to your agent
+
+Now as the custom connector is working, you can add and use it in your agent
  
