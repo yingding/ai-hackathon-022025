@@ -107,7 +107,7 @@ If this is a first time, connect again to your connection and hit "Retry" in the
 
 Congratulations! You have created your first agent in Copilot Studio, connected to Azure AI Foundry.
 
-### 2. Publish your agent to teams and M365 Copilot
+### 3. Publish your agent to teams and M365 Copilot
 
 After you created and tested your agent successfully, you can publish it in Teams Channel. 
 
