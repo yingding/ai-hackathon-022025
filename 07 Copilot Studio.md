@@ -52,7 +52,7 @@ Move to the tab 6.Test and create a new connection
 
 ![](main/imgs_mcs/PA_customcon_create_connection.png)
 
-Enter API Key in format "Bearer <your api key>" and hit "Create connection".
+Enter API Key in format `Bearer <your api key>` and hit "Create connection".
 
 Refresh the Connections and choose the one you just created. Enter the parameters:
 - model deployment name
