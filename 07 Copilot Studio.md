@@ -8,18 +8,19 @@ When you set up the MFA you can create a new user profile in browser so that you
 
 In Copilot Studio, you can create a new agent by description. Assure that you have selected your own personal developer environment.
 
- ![](main/imgs_mcs/pic1.jpg)
+ ![](main/imgs_mcs/CS_create.jpg)
 
  You can continue in the dialogue and enter decriptions or user "Skip to configure" button to use the configureation pane directly.
  Upon finishing, press "Create" to create your agent.
- 
- ![](main/img_mcs/skip_to_configure.png)
 
- ![](main/imgs_mcs/create_agent.png)
+![alt text](main/imgs_mcs/CS_skip_to_configure.png)
+
+![alt text](main/imgs_mcs/CS_create_agent.png)
 
 After your agent is created, enable GenAI orchestration and disable the feature "Allow the AI to use its own general knowledge."
 
 ![](main/imgs_mcs/CS_genAI.png)
+
 ## Add an action to your agent
 
 ### 1. Create a custom connector 
@@ -28,7 +29,7 @@ For your agent to connect to Azure Foundry endpoints, you need to create a custo
 Go to [[Power Automate]](https://make.preview.powerautomate.com)
 You will have to switch on some menu points on the left side
 
-![](main/imgs_mcs/PAmenu.png)
+![](main/imgs_mcs/PA_menu.png)
 
 Choose "Discover all" and turn on the "Connections", "Connectors" and  "Custom Connectors"
 
@@ -36,16 +37,16 @@ Choose "Discover all" and turn on the "Connections", "Connectors" and  "Custom C
 
 Go to the menu point "custom connectors" and create a new one from blank. Enter a name "AI Joke Connector" or whatever you like.
 
- ![](main/imgs_mcs/PA_customcon.png)
+![](main/imgs_mcs/PA_customcon_new_connector.png)
 
 After you did this, hit "Create connector"
- ![](main/imgs_mcs/PA_customcon_create1.png)
+![](main/imgs_mcs/PA_customcon_create_connector.png)
 
- Switch the button "Swagger editor" on and copy the swagger file into the editor.
- ![](main/imgs_mcs/PA_customcon_swagger.png)
+Switch the button "Swagger editor" on and copy the swagger file into the editor.
+![](main/imgs_mcs/PA_customcon_swagger.png)
 
- Here is the file:
- [swagger template](main/imgs_mcs/custom_connector_swagger_file_1.txt)
+Here is the swagger file as template:
+[swagger template](main/imgs_mcs/custom_connector_swagger_file_1.txt)
 
 Move to the tab 6.Test and create a new connection
 
@@ -127,4 +128,4 @@ To access your agent in teams, you klick on "See agent in Teams" or "Get a link"
 
 Move back to the teams Web version and start the agent. You can now chat with the agent in your Teams app.
 
-![alt text](main/imgs_mcs/CS_publish_teams_final.png)
+![G](main/imgs_mcs/CS_publish_teams_final.png)
