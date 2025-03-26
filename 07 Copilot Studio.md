@@ -61,7 +61,7 @@ and hit "Test operation"
 
 ![](main/imgs_mcs/PA_customcon_test.png)
 
-### 2. Add a connector to your agent
+### 2. Add an action to your agent
 
 Now as the custom connector is working, you can add and use it in your agent, which was previously created in Copilot Studio. Open the agent in Copilot Studio and hit the button "Add action"
 
@@ -105,3 +105,26 @@ If this is a first time, connect again to your connection and hit "Retry" in the
 ![](main/imgs_mcs/CS_final_test_result.png)
 
 Congratulations! You have created your first agent in Copilot Studio, connected to Azure AI Foundry.
+
+### 2. Publish your agent to teams and M365 Copilot
+
+After you created and tested your agent successfully, you can publish it in Teams Channel. 
+
+Go to the Channel tab, select the "Teams + Microsoft 365" decide if you want to publish in M365 Copilot Chat and hit "Add Channel".
+
+![alt text](main/imgs_mcs/CS_publish.png)
+
+After that you will be asked to publish the agent. Hit the button "Publish".
+
+You can edit some details if you want, like change the icon and color and decide if agent can be added to team or channel.
+
+![alt text](main/imgs_mcs/CS_publish_details.png)
+
+To access your agent in teams, you klick on "See agent in Teams" or "Get a link" in Availability Options. With link you will be guided to a Teams app where you can add the agent and open it via Teams or M365 Copilot (currently it only works in a Teams Desktop app, therefore you will need to sign in into your desktop teams with your demo credentials).
+
+
+![alt text](main/imgs_mcs/CS_publish_teams.png)
+
+Move back to the teams Web version and start the agent. You can now chat with the agent in your Teams app.
+
+![alt text](main/imgs_mcs/CS_publish_teams_final.png)
