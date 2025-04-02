@@ -30,7 +30,7 @@ azureml-rag==0.2.38
 ```
 * Save and install
 ![](imgs/update_and_install_promptflow_lib_search_agent.png)
-* Restart `Compute session`
+* Reset `Compute session`
 
 
 3. Test Singe Agent workflow by click on `chat` to start chat test:
