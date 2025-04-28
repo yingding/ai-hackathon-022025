@@ -35,6 +35,7 @@ http://localhost:8000/docs
 curl -X 'POST' \
   'http://localhost:8000/agent/chat' \
   -H 'accept: application/json' \
+  -H 'Authorization: Bearer <key>' \
   -H 'Content-Type: application/json' \
   -d '{
   "message": "What are some innovative approaches to reduce plastic waste in urban environments?",
@@ -136,6 +137,7 @@ output:
 curl -X 'POST' \
   'http://localhost:8000/agent/multi-chat' \
   -H 'accept: application/json' \
+  -H 'Authorization: Bearer <key>' \
   -H 'Content-Type: application/json' \
   -d '{
   "message": "What are some innovative approaches to reduce plastic waste in urban environments?",
