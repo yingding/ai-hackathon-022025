@@ -105,3 +105,10 @@ used
 python3 app.py
 
 in app service, settings, configuration, startup command
+
+
+```
+azd env list
+azd env refresh
+
+```
