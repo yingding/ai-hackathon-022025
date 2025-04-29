@@ -16,12 +16,12 @@ Invoke-Expression "(Get-Command python).Source";
 
 3. change directory to the project playground
 ```powershell
-$PROJ_DIR_NAME="ai-hackathon-022025\backend";
+$PROJ_DIR_NAME="ai-hackathon-022025\backend\app";
 $PROJ_ROOT_DIRS="Documents\VCS\events";
 $PROJ_PATH="$env:USERPROFILE\$PROJ_ROOT_DIRS\$PROJ_DIR_NAME";
 cd "$PROJ_PATH";
 
-& "python" main.py
+& "python" app.py
 ```
 
 4. testing the swagger api

@@ -1,11 +1,11 @@
 import logging
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import agents
+from api import agents
 # from app.api import memory, functions, weather, agents, filters, kernel, process
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 # load the environment variables from .env file
-from app.config import settings
+from config import settings
 
 # Configure logging
 logging.basicConfig(
@@ -63,4 +63,5 @@ async def root(credentials: HTTPAuthorizationCredentials = Depends(verify_token)
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=8000)
+    # uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)

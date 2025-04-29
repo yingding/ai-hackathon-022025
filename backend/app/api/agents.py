@@ -1,8 +1,8 @@
 import logging
 import json
 from fastapi import APIRouter, HTTPException
-from app.models.api_models import AgentRequest, MultiAgentRequest
-from app.core.kernel import create_kernel
+from models.api_models import AgentRequest, MultiAgentRequest
+from core.kernel import create_kernel
 from semantic_kernel.connectors.ai.open_ai import AzureChatPromptExecutionSettings
 from semantic_kernel.contents.chat_history import ChatHistory
 from semantic_kernel.connectors.ai.function_choice_behavior import (

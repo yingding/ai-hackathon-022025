@@ -30,3 +30,5 @@ docker-compose*
 # Project specific
 *.log
 .pytest_cache/
+
+README.md
