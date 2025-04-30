@@ -106,9 +106,16 @@ python3 app.py
 
 in app service, settings, configuration, startup command
 
+## Issues
+The old resource group can not be deployed.
+Changed the name of the resource group then bicep works.
+Probable the old resource group is still cached.
 
+<!--
+```powershell
+# remove the local deployment
+C:\Users\YINGDI~1\AppData\Local\Temp
+rm .\agent-yw-uno-web-azddeploy-*.zip
 ```
-azd env list
-azd env refresh
+-->
 
-```

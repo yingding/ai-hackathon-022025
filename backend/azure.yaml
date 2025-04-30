@@ -9,7 +9,7 @@ name: agent-yw-uno
 metadata:
   template: agent-yw-uno@0.0.1-beta
 infra:
-  provider: "bicep"
+    provider: "bicep"
 services:
   web:
     project: app
