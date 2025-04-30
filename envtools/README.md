@@ -10,7 +10,7 @@ To create a native windows venv on windows 11,
 ```powershell
 # the current project directory path C:\Users\<windows_user>\Documents\VCS\<project_name>
 # change it accordingly to your path
-$PROJ_DIR="$env:USERPROFILE\Documents\azurecode";
+$PROJ_DIR="$env:USERPROFILE\Documents\azurecode\ai-hackathon-022025";
 cd "$PROJ_DIR";
 
 $VERSION="3.13";
@@ -35,7 +35,7 @@ $ENV_FULL_NAME = "$ENV_NAME$VERSION$ENV_SURFIX";
 $ENV_DIR="$env:USERPROFILE\Documents\";
 
 # absolute path of requirements.txt to install for the python venv
-$PROJ_DIR="$env:USERPROFILE\Documents\azurecode";
+$PROJ_DIR="$env:USERPROFILE\Documents\azurecode\ai-hackathon-022025";
 $SubProj="backend\app" 
 $PackageFile="$PROJ_DIR\$SubProj\requirements.txt";
 
