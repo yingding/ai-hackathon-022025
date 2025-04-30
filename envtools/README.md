@@ -10,14 +10,14 @@ To create a native windows venv on windows 11,
 ```powershell
 # the current project directory path C:\Users\<windows_user>\Documents\VCS\<project_name>
 # change it accordingly to your path
-$PROJ_DIR="$env:USERPROFILE\Documents\VCS\ai-demos";
+$PROJ_DIR="$env:USERPROFILE\Documents\azurecode";
 cd "$PROJ_DIR";
 
-$VERSION="3.12";
-$ENV_NAME="search";
+$VERSION="3.13";
+$ENV_NAME="agents";
 $ENV_SURFIX="winpip";
 $PM="pip";
-$ENV_DIR="$env:USERPROFILE\Documents\VENV\";
+$ENV_DIR="$env:USERPROFILE\Documents\";
 .\envtools\create_env.ps1 -VERSION $VERSION -ENV_NAME $ENV_NAME -ENV_SURFIX $ENV_SURFIX -PM $PM -WORK_DIR $ENV_DIR;
 ```
 
@@ -26,17 +26,17 @@ Note:
 
 ## Install packages (general)
 ```powershell
-$VERSION="3.12";
-$ENV_NAME="search";
+$VERSION="3.13";
+$ENV_NAME="agents";
 $ENV_SURFIX="winpip";
 
 $ENV_FULL_NAME = "$ENV_NAME$VERSION$ENV_SURFIX";
 # with the closing "\"
-$ENV_DIR="$env:USERPROFILE\Documents\VENV\";
+$ENV_DIR="$env:USERPROFILE\Documents\";
 
 # absolute path of requirements.txt to install for the python venv
-$PROJ_DIR="$env:USERPROFILE\Documents\VCS\ai-demos";
-$SubProj="search" 
+$PROJ_DIR="$env:USERPROFILE\Documents\azurecode";
+$SubProj="backend\app" 
 $PackageFile="$PROJ_DIR\$SubProj\requirements.txt";
 
 & "$ENV_DIR$ENV_FULL_NAME\Scripts\Activate.ps1";
