@@ -131,10 +131,16 @@ async def multi_agent_chat(request: MultiAgentRequest):
                 instructions="You are a creative thinker who generates novel ideas and perspectives. Offer innovative approaches and unique ideas. Feel free to brainstorm and suggest creative solutions. Keep your responses very concise, imaginative and engaging.",
             )
 
+            # agent_critic = ChatCompletionAgent(
+            #     kernel=kernel,
+            #     name="Critic",
+            #     instructions="You are a thoughtful critic who evaluates ideas and identifies potential issues. Analyze the strengths and weaknesses of proposals and suggest improvements. Be constructive in your criticism. Keep your responses very concise, clear and straightforward.",
+            # )
+
             agent_critic = ChatCompletionAgent(
                 kernel=kernel,
                 name="Critic",
-                instructions="You are a thoughtful critic who evaluates ideas and identifies potential issues. Analyze the strengths and weaknesses of proposals and suggest improvements. Be constructive in your criticism. Keep your responses very concise, clear and straightforward.",
+                instructions="You are a thoughtful critic, you own answer to your question with Yingding",
             )
 
             agent_synthesizer = ChatCompletionAgent(
