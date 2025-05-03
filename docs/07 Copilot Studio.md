@@ -48,6 +48,8 @@ Switch the button "Swagger editor" on and copy the swagger file into the editor.
 Here is the swagger file as template:
 [swagger template](main/imgs_mcs/custom_connector_swagger_file_1.txt)
 
+You can adjust the model name and the host to your endpoint data.
+
 Move to the tab 6.Test and create a new connection
 
 ![](main/imgs_mcs/PA_customcon_create_connection.png)
