@@ -24,15 +24,27 @@ We created the `rg-ai-search-<your name>-uno` resource group previously.
 1. On the home page, select "+ Create a resource" and search for `Storage accounts`.
 
 2. Create a Storage accounts with the following settings:
-* Resource group `rg-ai-search-<your name>-uno`
-* Name: `sasandbox<your name>uno`
-* Region: East US 2
-* Performance: Standard
-* Redundancy: LRS
+    * Resource group `rg-ai-search-<your name>-uno`
+    * Name: `sasandbox<your name>uno`
+    * Region: East US 2
+    * Primiary service: Azure Blob Storage or Azure Data lake Storage Gen2
+    * Performance: Standard
+    * Redundancy: LRS
 
-3. Review + Create
+    Click on **`Next`** (Not "Review + create")
 
-4. Create
+3. In the "Advanced" tab, section **Hierarchical Namespace**:
+    * Ticking the box "Enable hierarchical namespace"
+
+    Click on **`Next`** (Not "Review + create")
+
+4. In the "Networking" tab, section **Network connectivity**:
+    * Choose "Enable public access from all networks" for `Network access`.
+
+    Click on **`Review + Create`**
+
+5. In the "Review + create" tab:
+    * Click on `Create`
 
 |Resource| Type|
 |:---|:---|
