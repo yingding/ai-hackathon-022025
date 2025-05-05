@@ -10,7 +10,7 @@
 * Resource group: create a resource group with name `rg-ai-search-<your name>-uno`
 * Service name: Enter a unique service name e.g. `svc-ai-search-<your name>-uno`
 * Location: East US 2
-* Pricing Tier: Free
+* Pricing Tier: Basic
 * Review + Create
 * Create
 
