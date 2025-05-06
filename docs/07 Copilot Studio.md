@@ -2,15 +2,16 @@
 
 ## Create your agent in copilot studio
 
-Call the browser in InPrivate mode and follow the link [[Copilot Studio]](https://copilotstudio.preview.microsoft.com)
-Use the user credentials assigned to you to sign into the demo tenant. Set-Up the MFA if needed.
+Call the browser in InPrivate mode and follow the link [[Copilot Studio]](https://copilotstudio.preview.microsoft.com).
+
+Use the user credentials assigned to you to sign into the CDX demo tenant. Set-Up the MFA as described in the previous document..
 When you set up the MFA you can create a new user profile in browser so that you can log in again without having to enter the credentials.
 
-In Copilot Studio, you can create a new agent by description. Assure that you have selected your own personal developer environment.
+In Copilot Studio, you can create a new agent by entering a description. Assure that you have selected your own personal developer environment in the upper right corner.
 
  ![](main/imgs_mcs/CS_create.jpg)
 
- You can continue in the dialogue and enter decriptions or user "Skip to configure" button to use the configureation pane directly.
+ You can continue in the creation dialogue and enter decriptions or use "Skip to configure" button to use the configuration pane directly in agent.
  Upon finishing, press "Create" to create your agent.
 
 ![alt text](main/imgs_mcs/CS_skip_to_configure.png)
@@ -24,7 +25,7 @@ After your agent is created, enable GenAI orchestration and disable the feature 
 ## Add an action to your agent
 
 ### 1. Create a custom connector 
-For your agent to connect to Azure Foundry endpoints, you need to create a custom connector.
+For your agent to connect to Azure Foundry or any other endpoints, you need to create a custom connector.
 
 Go to [[Power Automate]](https://make.preview.powerautomate.com)
 You will have to switch on some menu points on the left side
@@ -63,6 +64,8 @@ Refresh the Connections and choose the one you just created. Enter the parameter
 and hit "Test operation"
 
 ![](main/imgs_mcs/PA_customcon_test.png)
+
+If everything works fine, you will see the answer in the Body window.
 
 ### 2. Add an action to your agent
 
