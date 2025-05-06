@@ -126,7 +126,9 @@ You can edit some details if you want, like change the icon and color and decide
 
 ![alt text](main/imgs_mcs/CS_publish_details.png)
 
-To access your agent in teams, you klick on "See agent in Teams" or "Get a link" in Availability Options. With link you will be guided to a Teams app where you can add the agent and open it via Teams or M365 Copilot (currently it only works in a Teams Desktop app, therefore you will need to sign in into your desktop teams with your demo credentials).
+To access your agent in teams, you klick on "See agent in Teams" or "Get a link" in Availability Options. With link you will be guided to a Teams app where you can add the agent and open it via Teams or M365 Copilot.
+
+Note: Due to the CDX bug this currently only works in a Teams Desktop app, therefore you will need to sign in into your desktop teams with your demo credentials. Once you added the agent in the desktop app, you can see it in web app also.
 
 
 ![alt text](main/imgs_mcs/CS_publish_teams.png)
