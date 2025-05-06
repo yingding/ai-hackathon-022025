@@ -136,3 +136,7 @@ Note: Due to the CDX bug this currently only works in a Teams Desktop app, there
 Move back to the teams Web version and start the agent. You can now chat with the agent in your Teams app.
 
 ![G](main/imgs_mcs/CS_publish_teams_final.png)
+
+### 4. Adding another action to the same agent
+
+In the same way you can add more actions to the agent. These actions can be already prebuilt connectors or you can make another custom connector.
