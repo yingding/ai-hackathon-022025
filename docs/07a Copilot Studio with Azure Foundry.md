@@ -53,6 +53,49 @@ Here is the swagger file as template for an endpoint already created some time a
 
 In the template you can adjust the model name and the host to your endpoint data or create a new swagger file.
 
+If you don't have an endpoint, you can create a custom connector directly to your model in Azure Foundry. The template swagger files are here:
+
+[Deepseek swagger template](main/imgs_mcs/custom_connector_deepseek_direct_swagger_file.yaml)
+
+[GPT4o swagger template](main/imgs_mcs/custom_connector_gpt4o_direct_swagger_file.yaml)
+
+Remark - GitHub Copilot is quite helpful in creation of these templates.
+
+If you encounter security error during cration, enter `api key` in Parameter label.
+
+![alt text](main/imgs_mcs/PA_customcon_security_error.png)
+
+Move to the tab 6.Test and create a new connection
+
+![](main/imgs_mcs/PA_customcon_create_connection.png)
+
+If you are testing the endpoint enter API Key in format `Bearer <your api key>` and hit "Create connection". You need to physically type word "Bearer" followed by your api key.
+
+![alt text](main/imgs_mcs/PA_bearer_token.png)
+
+If you are testing direct LLM endpoint than you won't need the word Bearer and can just copy the key. 
+
+![alt text](main/imgs_mcs/PA_customcon_direct_apy_key1.png)
+
+Refresh the Connections and choose the one you just created. Enter the parameters that are relevant for this enpoint or model. F.e.:
+- model deployment name
+- topic
+- role
+- content 
+- ...
+
+and hit "Test operation"
+
+![](main/imgs_mcs/PA_customcon_test.png)
+
+If everything works fine, you will see the answer in the Body window.
+
+Or another example of test:
+
+![alt text](main/imgs_mcs/PA_customcon_test2.png)
+
+![alt text](main/imgs_mcs/PA_customcon_test2_answer.png)
+
 
 ### 2. Add an action to your agent
 
@@ -63,8 +106,6 @@ Now as the custom connector is working, you can add and use it in your agent, wh
 Enter the name of your custom connector or pick up the category "Custom connector"
 
 ![](main/imgs_mcs/CS_add_action_customcon.png)
-
-#### 2a. Add custom connector for your deplyed endpoint
 
 The system will ask for the connection, just confirm it as it was created in previous step and hit "Next". Ignore the warnings and hit "Add action".
 
@@ -100,9 +141,6 @@ If this is a first time, connect again to your connection and hit "Retry" in the
 ![alt text](main/imgs_mcs/CS_final_test_con.png)
 
 ![](main/imgs_mcs/CS_final_test_result.png)
-
-#### 2b. Add custom connector for chat completion
-
 
 Congratulations! You have created your first agent in Copilot Studio, connected to Azure AI Foundry.
 
