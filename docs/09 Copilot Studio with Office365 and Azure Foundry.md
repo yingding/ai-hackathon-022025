@@ -40,3 +40,5 @@ The orchestrator will call all 3 actions in the right order to get the calendar,
 ![alt text](main/imgs_mcs/cs_calendar7.png)
 
 ![alt text](main/imgs_mcs/cs_calendar8.png)
+
+![alt text](main/imgs_mcs/cs_calendar9.png)
