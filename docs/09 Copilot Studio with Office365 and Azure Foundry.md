@@ -38,3 +38,5 @@ Go to the agent test pane and type the following prompt: `Tell me a joke from De
 The orchestrator will call all 3 actions in the right order to get the calendar, than the events title and finally call the endpoint.
 
 ![alt text](main/imgs_mcs/cs_calendar7.png)
+
+![alt text](main/imgs_mcs/cs_calendar8.png)
