@@ -2,7 +2,7 @@
 
 This is the Agenda of Hackathon "🐱🐶 CODE - CREATE - CONNECT: The Ultimate Azure & Power Hackathon!" on May 2025.
 
-The Author of this repository are:
+The Authors of this repository are:
 * Natasa Krstin
 * Yingding Wang
 
