@@ -71,12 +71,6 @@ and hit "Test operation"
 
 If everything works fine, you will see the answer in the Body window.
 
-Or another example of test:
-
-![alt text](main/imgs_mcs/PA_customcon_test2.png)
-
-![alt text](main/imgs_mcs/PA_customcon_test2_answer.png)
-
 Note: if you don't have your own endpoint, use the exact swagger file provided in the template. API key will be posted in meeting chat!
 
 ### 2. Add an action to your agent
