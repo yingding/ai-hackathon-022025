@@ -111,6 +111,8 @@ The system will ask for the connection, just confirm it as it was created in pre
 
 With this step the action was added to the agent. Now we have to configure it properly for orchestrator to use it in the right way.
 
+Note: the screen will look different before and after the action creation. "Input" and "Output" tabs will be there after you add the action. During creation you will find them underneat the "Details".
+
 Go to the "Actions" tab and klick on your action. You will see 3 subtabs where you can enter "Details", "Inputs" and "Outputs"
 
 On the "Details" tab enter "Action name", "Display name" and "Description" in a way that it is easy recognizable when to use it.
