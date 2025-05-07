@@ -75,7 +75,7 @@ If you are testing the endpoint enter API Key in format `Bearer <your api key>` 
 
 If you are testing direct LLM endpoint than you won't need the word Bearer and can just copy the key. 
 
-![alt text](main/imgs_mcs/PA_customcon_direct_api_key.png)
+![alt text](main/imgs_mcs/PA_customcon_direct_apy_key1.png)
 
 Refresh the Connections and choose the one you just created. Enter the parameters that are relevant for this enpoint or model. F.e.:
 - model deployment name
