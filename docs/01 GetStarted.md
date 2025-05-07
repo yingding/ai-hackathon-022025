@@ -16,11 +16,16 @@ Prerequisites
 * An Azure subscription
 * Your Azure Portal User have "Azure AI Developer" assigned
 
+#### 0 Login to Azure Portal
+
+In a web browser, open the Azure portal at https://portal.azure.com and sign in using your Azure credentials.
+
 #### 1 Create a resource groups
-* resource groups in the Azure portal search
+
+* Search "resource groups" in the Azure portal top searchbar.
 * create
 * "rg-ai-sandbox-<yourname>-uno"
-* Region: East US 2
+* Region: East US 2 / East US
 * Review + Create
 * Create
 
@@ -29,7 +34,7 @@ Hub: Grouping container for projects. Provides security, connectivity, and compu
 
 To create a Hub in Azure AI Foundry, follow these steps:
 
-1. Go to Azure AI Foundry
+1. Go to Azure AI Foundry in Azure Portal
 
 2. Select + "Create v" -> Hub.
 
@@ -58,7 +63,7 @@ Project: Collaborate, organize, and track work to build AI apps.
 
 To create a Project in Azure AI Foundry, follow these steps:
 
-1. Go to Azure AI Foundry
+1. Go to Azure AI Foundry in Azure Portal
 
 2. Select + "Create v" -> Project.
 
@@ -93,7 +98,7 @@ To create a Project in Azure AI Foundry, follow these steps:
 5. Click on "DeepSeek R1"
     * Deploy
     * Agree and Procceed
-  ![](imgs/deepseek_deploy_1.png)
+    ![](imgs/deepseek_deploy_1.png)
 
     * Customize 
     ![](imgs/deepseek_deploy_2.png)
