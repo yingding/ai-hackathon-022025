@@ -23,7 +23,9 @@ Hackathon content
 
 3. [Copilot Studio with Office365 and Azure Foundry](./docs/09%20Copilot%20Studio%20with%20Office365%20and%20Azure%20Foundry.md)
 
-Optional homeworks (WIP)
-* Deploy WebApp from Azure AI Foundry
+Optional homeworks:
+* Deploy a multi-agent semantic kernel backend with Azure App Service []()
+<!--
 * A preview of Azure AI Foundry Agent Playground
+-->
 
