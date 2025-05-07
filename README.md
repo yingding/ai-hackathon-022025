@@ -1,6 +1,6 @@
 # Agenda 
 
-This is the Agenda of Hackathon "AI Integration Copilot and Azure AI Foundry" on May 2025.
+This is the Agenda of Hackathon "🐱🐶 CODE - CREATE - CONNECT: The Ultimate Azure & Power Hackathon!" on May 2025.
 
 The Author of this repository are:
 * Natasa Krstin
