@@ -1,4 +1,4 @@
-# Copilot Studio Connecting to AI Foundry
+# Copilot Studio Connecting to Azure Foundry
 
 ## Create your agent in copilot studio
 
