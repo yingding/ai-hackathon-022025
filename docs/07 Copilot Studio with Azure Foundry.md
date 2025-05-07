@@ -41,25 +41,48 @@ Go to the menu point "custom connectors" and create a new one from blank. Enter 
 ![](main/imgs_mcs/PA_customcon_new_connector.png)
 
 After you did this, hit "Create connector"
+
 ![](main/imgs_mcs/PA_customcon_create_connector.png)
 
 Switch the button "Swagger editor" on and copy the swagger file into the editor.
 ![](main/imgs_mcs/PA_customcon_swagger.png)
 
-Here is the swagger file as template:
+Here is the swagger file as template for an endpoint already created some time ago via Prompt Flow:
 
-[swagger templatetext](main/imgs_mcs/custom_connector_AF_endpoint_swagger_file.yaml)
-You can adjust the model name and the host to your endpoint data.
+[Endpoint swagger template](main/imgs_mcs/custom_connector_AF_endpoint_swagger_file.yaml)
+
+In the template you can adjust the model name and the host to your endpoint data or create a new swagger file.
+
+If you don't have an endpoint, you can create a custom connector directly to your model in Azure Foundry. The template swagger files are here:
+
+[Deepseek swagger template](main/imgs_mcs/custom_connector_deepseek_direct_swagger_file.yaml)
+
+[GPT4o swagger template](main/imgs_mcs/custom_connector_gpt4o_direct_swagger_file.yaml)
+
+Remark - GitHub Copilot is quite helpful in creation of these templates.
+
+If you encounter security error during cration, enter `api key` in Parameter label.
+
+![alt text](main/imgs_mcs/PA_customcon_security_error.png)
 
 Move to the tab 6.Test and create a new connection
 
 ![](main/imgs_mcs/PA_customcon_create_connection.png)
 
-Enter API Key in format `Bearer <your api key>` and hit "Create connection". You need to physically type word "Bearer" followed by your api key.
+If you are testing the endpoint enter API Key in format `Bearer <your api key>` and hit "Create connection". You need to physically type word "Bearer" followed by your api key.
 
-Refresh the Connections and choose the one you just created. Enter the parameters:
+![alt text](main/imgs_mcs/PA_bearer_token.png)
+
+If you are testing direct LLM endpoint than you won't need the word Bearer and can just copy the key. 
+
+![alt text](main/imgs_mcs/PA_customcon_direct_api_key.png)
+
+Refresh the Connections and choose the one you just created. Enter the parameters that are relevant for this enpoint or model. F.e.:
 - model deployment name
 - topic
+- role
+- content 
+- ...
 
 and hit "Test operation"
 
