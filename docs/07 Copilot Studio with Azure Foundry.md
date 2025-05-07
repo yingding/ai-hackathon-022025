@@ -61,16 +61,9 @@ If you are testing the endpoint enter API Key in format `Bearer <your api key>` 
 
 ![alt text](main/imgs_mcs/PA_bearer_token.png)
 
-If you are testing direct LLM endpoint than you won't need the word Bearer and can just copy the key. 
-
-![alt text](main/imgs_mcs/PA_customcon_direct_apy_key1.png)
-
 Refresh the Connections and choose the one you just created. Enter the parameters that are relevant for this enpoint or model. F.e.:
 - model deployment name
 - topic
-- role
-- content 
-- ...
 
 and hit "Test operation"
 
@@ -84,6 +77,7 @@ Or another example of test:
 
 ![alt text](main/imgs_mcs/PA_customcon_test2_answer.png)
 
+Note: if you don't have your own endpoint, use the exact swagger file provided in the template. API key will be posted in meeting chat!
 
 ### 2. Add an action to your agent
 
