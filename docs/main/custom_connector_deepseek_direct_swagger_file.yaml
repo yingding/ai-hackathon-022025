@@ -1,0 +1,70 @@
+swagger: '2.0'
+info:
+  title: Azure OpenAI Chat API
+  description: Custom connector for Azure OpenAI chat completions
+  version: 1.0.0
+host: znk-ai-service661967236621.services.ai.azure.com
+schemes:
+  - https
+paths:
+  /models/chat/completions:
+    post:
+      summary: Generate chat completion
+      description: Send a chat message and receive AI-generated completion
+      operationId: GenerateChatCompletion
+      parameters:
+        - name: api-version
+          in: query
+          required: true
+          type: string
+          default: 2024-05-01-preview
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            properties:
+              messages:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    role:
+                      type: string
+                      enum:
+                        - system
+                        - user
+                        - assistant
+                    content:
+                      type: string
+              max_tokens:
+                type: integer
+                default: 2048
+              model:
+                type: string
+                default: DeepSeek-R1
+            required:
+              - messages
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            type: object
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '500':
+          description: Internal Server Error
+securityDefinitions:
+  api_key:
+    type: apiKey
+    in: header
+    name: Authorization
+security:
+  - api_key: []
+
