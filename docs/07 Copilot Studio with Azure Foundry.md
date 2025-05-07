@@ -1,6 +1,6 @@
 # Copilot Studio Connecting to Azure Foundry
 
-## Create your agent in copilot studio
+## Create your agent in Copilot Studio
 
 Call the browser in InPrivate mode and follow the link [[Copilot Studio]](https://copilotstudio.preview.microsoft.com).
 
@@ -51,7 +51,7 @@ Here is the swagger file as template for an endpoint already created some time a
 
 [Endpoint swagger template](main/imgs_mcs/custom_connector_AF_endpoint_swagger_file.yaml)
 
-In the template you can adjust the model name and the host to your endpoint data or create a new swagger file. You can also use the exact template from this repository if you don't have your own endpoint.
+In the template you can adjust the model name and the host to your endpoint data or create a new swagger file. You can also use the exact template from this repository if you don't have your own endpoint. API Key will be posted in the meeting chat.
 
 Move to the tab 6.Test and create a new connection
 
@@ -71,13 +71,7 @@ and hit "Test operation"
 
 If everything works fine, you will see the answer in the Body window.
 
-Or another example of test:
-
-![alt text](main/imgs_mcs/PA_customcon_test2.png)
-
-![alt text](main/imgs_mcs/PA_customcon_test2_answer.png)
-
-Note: if you don't have your own endpoint, use the exact swagger file provided in the template. API key will be posted in meeting chat!
+Note: if you don't have your own endpoint, use the exact swagger file provided in the template. API key will be posted in meeting chat! Or ask an Azure colleague for his Endpoint.
 
 ### 2. Add an action to your agent
 
@@ -89,7 +83,7 @@ Enter the name of your custom connector or pick up the category "Custom connecto
 
 ![](main/imgs_mcs/CS_add_action_customcon.png)
 
-#### 2a. Add custom connector for your deplyed endpoint
+#### 2a. Add custom connector for your deployed endpoint
 
 The system will ask for the connection, just confirm it as it was created in previous step and hit "Next". Ignore the warnings and hit "Add action".
 
