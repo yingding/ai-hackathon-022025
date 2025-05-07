@@ -71,7 +71,7 @@ and hit "Test operation"
 
 If everything works fine, you will see the answer in the Body window.
 
-Note: if you don't have your own endpoint, use the exact swagger file provided in the template. API key will be posted in meeting chat!
+Note: if you don't have your own endpoint, use the exact swagger file provided in the template. API key will be posted in meeting chat! Or ask an Azure colleague for his Endpoint.
 
 ### 2. Add an action to your agent
 
