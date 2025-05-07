@@ -5,6 +5,7 @@
 2. Install VSCode
 3. Install AZD tool on Windows
 
+Open a Powershell and copy in the following cmds:
 ```powershell
 winget search azd
 winget install --id Microsoft.Azd
@@ -12,6 +13,8 @@ winget install --id Microsoft.Azd
 Restart the powershell terminal on windows to reload the PATH env variable.
 
 4. Install git tool on Windows
+
+Open a Powershell and copy in the following cmds:
 ```powershell
 winget search git
 winget install --id Microsoft.Git
@@ -20,6 +23,7 @@ Restart the powershell terminal on windows to reload the PATH env variable.
 
 ## Login to Tenant and Sub
 
+Open a Powershell and copy in the following cmds:
 ```powershell
 azd auth login --tenant-id <TENANT_ID>
 azd auth login --check-status
@@ -33,13 +37,17 @@ Reference:
 * login tenant https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/reference#azd-auth-login
 * config sub to use https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/azd-config#work-with-configuration-commands
 
-## Clone Repository 
+## Clone Repository
+
+Open a Powershell and copy in the following cmds:
 ```powershell
 cd <PATH of your choice>
 git clone https://github.com/yingding/ai-hackathon-022025
 ```
 
 ## Open the code template
+
+Open a Powershell and copy in the following cmds:
 ```powershell
 cd <PATH of your choice>/ai-hackathon-022025
 
@@ -48,6 +56,9 @@ code .
 This will automatical open VSCode editor
 
 ## Modify your env file
+
+In the VSCode Editor:
+
 1. Copy the `<project root>/backend/app/.env.example` file to `<project root>/backend/app/.env` file
 
 2. Fill out the `.env` file with your credential
@@ -94,7 +105,7 @@ https://portal.azure.com/xxxxxxx
 ```
 
 ## Testing out the endpoint API
-Testing the swagger api from:
+Testing the swagger api from edge browser:
 ```
 https://web-xxxxxxxxxxx.azurewebsites.net/docs/
 ```
