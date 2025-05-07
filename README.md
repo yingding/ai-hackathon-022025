@@ -31,7 +31,7 @@ Hackathon content
 3. [Copilot Studio with Office365 and Azure Foundry](./docs/09%20Copilot%20Studio%20with%20Office365%20and%20Azure%20Foundry.md)
 
 ## Part 3: Additional Content (Optional)
-* Deploy a multi-agent semantic kernel backend with Azure App Service []()
+* [Deploy a Multi-Agent Semantic Kernel API Backend with Azure App Service](./docs/04%20DeployMultiAgentBackend.md)
 <!--
 * A preview of Azure AI Foundry Agent Playground
 -->
@@ -46,5 +46,10 @@ Special thanks to Fiza Musthafa and Cindy Um for your valuable feedback througho
 
 Finally, a big shout-out to all the participants—thank you for dedicating your time and energy to making this hackathon a success.
 
-Yingding Wang 
+Yingding Wang
+
+
+## Contributing
+
+Contributions welcome via pull requests.
 
