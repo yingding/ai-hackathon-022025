@@ -1,6 +1,6 @@
 # Copilot Studio Connecting to Azure AI Search
 
-This Agent will provide user with answers to the questions grounded in documents that are stored in the Blob storage and indexed via Azure AI Search. AI Search assets have been created in part 02.
+This Agent will provide user with answers to the questions grounded in documents that are stored in the Blob storage and indexed via Azure AI Search. AI Search assets have been created in part 02. You have added your documents to Blob Storage and created Search Index around them.
 
 AI Search in Copilot Studio will work only if the index is vectorized. Therefore check it first and vectorize if necessary. 
 
