@@ -1,0 +1,90 @@
+swagger: '2.0'
+info:
+  title: Azure GPT-4 Online Chat API
+  description: Custom connector for GPT-4 Online chat completions
+  version: '1.0.0'
+host: znk-ai-service661967236621.openai.azure.com
+schemes:
+  - https
+paths:
+  /openai/deployments/gpt-4o/chat/completions:
+    post:
+      summary: Generate GPT-4 Online chat completion
+      description: Send a chat message and receive AI-generated completion using GPT-4 Online
+      operationId: GenerateGPT4OChat
+      parameters:
+        - name: api-version
+          in: query
+          required: true
+          type: string
+          default: '2025-01-01-preview'
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            properties:
+              messages:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    role:
+                      type: string
+                      enum: [system, user, assistant]
+                    content:
+                      type: string
+              max_tokens:
+                type: integer
+                default: 4096
+              temperature:
+                type: number
+                default: 1
+                minimum: 0
+                maximum: 2
+              top_p:
+                type: number
+                default: 1
+                minimum: 0
+                maximum: 1
+              model:
+                type: string
+                default: 'gpt-4o'
+            required:
+              - messages
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              choices:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    message:
+                      type: object
+                      properties:
+                        content:
+                          type: string
+                        role:
+                          type: string
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '500':
+          description: Internal Server Error
+securityDefinitions:
+  api_key:
+    type: apiKey
+    in: header
+    name: Authorization
+    description: 'Bearer {your_api_key}'
+security:
+  - api_key: []

@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Azure OpenAI Chat API
-  description: Custom connector for Azure OpenAI chat completions
+  title: Azure Deepseek AI Chat API
+  description: Custom connector for Deepseek chat completions
   version: 1.0.0
 host: znk-ai-service661967236621.services.ai.azure.com
 schemes:
