@@ -139,4 +139,29 @@ Move back to the teams Web version and start the agent. You can now chat with th
 
 ### 4. Adding another action to the same agent
 
-In the same way you can add more actions to the agent. These actions can be already prebuilt connectors or you can make another custom connector.
+In the same way you can add more actions to the agent. These actions can be already prebuilt connectors or you can make another custom connector. You can perfrom the same steps as in the previous connector, and adjust:
+1. endpoint URL
+2. model name
+3. connection reference
+
+![alt text](main/imgs_mcs/PA_two_custom_connectors.png)
+
+Swagger example (use the same file as in previous connector)
+
+![alt text](main/imgs_mcs/PA_deepseek_swagger.png)
+
+Go back to Copilot Studio and add a new action to your agent.
+
+![alt text](main/imgs_mcs/CS_deepseek_action.png)
+
+Adjust the description, inputs and outputs so that the orchestrator is able to call the action when the right user question is asked.
+
+![alt text](main/imgs_mcs/CS_deepseek_action_description.png)
+
+Inputs - your model name.
+
+![alt text](main/imgs_mcs/CS_deepseek_action_inputs.png)
+
+In the outputs, you can choose a different option in order to distinguish both LLMs and provide own message with the output variable.
+
+![alt text](main/imgs_mcs/CS_deepseek_action_output.png)
