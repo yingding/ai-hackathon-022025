@@ -107,6 +107,8 @@ Enter the name of your custom connector or pick up the category "Custom connecto
 
 ![](main/imgs_mcs/CS_add_action_customcon.png)
 
+#### 2a. Add custom connector for your deplyed endpoint
+
 The system will ask for the connection, just confirm it as it was created in previous step and hit "Next". Ignore the warnings and hit "Add action".
 
 With this step the action was added to the agent. Now we have to configure it properly for orchestrator to use it in the right way.
@@ -141,6 +143,9 @@ If this is a first time, connect again to your connection and hit "Retry" in the
 ![alt text](main/imgs_mcs/CS_final_test_con.png)
 
 ![](main/imgs_mcs/CS_final_test_result.png)
+
+#### 2b. Add custom connector for chat completion
+
 
 Congratulations! You have created your first agent in Copilot Studio, connected to Azure AI Foundry.
 
