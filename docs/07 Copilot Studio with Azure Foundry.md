@@ -90,6 +90,13 @@ and hit "Test operation"
 
 If everything works fine, you will see the answer in the Body window.
 
+Or another example of test:
+
+![alt text](main/imgs_mcs/PA_customcon_test2.png)
+
+![alt text](main/imgs_mcs/PA_customcon_test2_answer.png)
+
+
 ### 2. Add an action to your agent
 
 Now as the custom connector is working, you can add and use it in your agent, which was previously created in Copilot Studio. Open the agent in Copilot Studio and hit the button "Add action"
