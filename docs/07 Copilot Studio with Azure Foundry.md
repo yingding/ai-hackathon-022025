@@ -51,7 +51,7 @@ Here is the swagger file as template for an endpoint already created some time a
 
 [Endpoint swagger template](main/imgs_mcs/custom_connector_AF_endpoint_swagger_file.yaml)
 
-In the template you can adjust the model name and the host to your endpoint data or create a new swagger file.
+In the template you can adjust the model name and the host to your endpoint data or create a new swagger file. You can also use the exact template from this repository if you don't have your own endpoint.
 
 Move to the tab 6.Test and create a new connection
 
