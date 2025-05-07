@@ -1,6 +1,6 @@
 # Agenda 
 
-this is the Agenda of Hackathon "AI Integration Copilot and Azure AI Foundry" on Apr. 2025
+This is the Agenda of Hackathon "AI Integration Copilot and Azure AI Foundry" on May 2025.
 
 ## Table of Content
 
