@@ -2,6 +2,10 @@
 
 This is the Agenda of Hackathon "AI Integration Copilot and Azure AI Foundry" on May 2025.
 
+The Author of this repository are:
+* Natasa Krstin
+* Yingding Wang
+
 ## Table of Content
 
 Overall **Architecture** across **Multiple Disciplines**
@@ -28,4 +32,16 @@ Optional homeworks:
 <!--
 * A preview of Azure AI Foundry Agent Playground
 -->
+
+## Attributions
+
+It is my tremendous honor to have worked with Natasa Krstin to create the learning materials for this workshop. Natasa dedicated a great deal of her spare time to updating the content and conducting thorough testing.
+
+I would also like to thank our managers, Sivajini Heilermann and Marcel Franke, for sponsoring and supporting us in organizing this hackathon. Without your support, this event would not have been possible.
+
+Special thanks to Fiza Musthafa and Cindy Um for your valuable feedback throughout the process.
+
+Finally, a big shout-out to all the participants—thank you for dedicating your time and energy to making this hackathon a success.
+
+Yingding Wang 
 
