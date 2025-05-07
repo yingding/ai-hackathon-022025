@@ -20,7 +20,7 @@ Prerequisites
 * resource groups in the Azure portal search
 * create
 * "rg-ai-sandbox-<yourname>-uno"
-* Region: East US
+* Region: East US 2
 * Review + Create
 * Create
 
@@ -148,7 +148,7 @@ Reason for this optional setting:
 1. Add your AI project user with RBAC role `Cognitive Services User` for `aihubdemo<your name>uno` Azure AI Service to allow project user to access content safety features and try out the testing
 
 Note:
-* with error ``Your account does not have access to this resource, ...` https://learn.microsoft.com/en-gb/azure/ai-services/content-safety/concepts/response-codes#azure-ai-foundry-error-messages
+* with error `Your account does not have access to this resource, ...` https://learn.microsoft.com/en-gb/azure/ai-services/content-safety/concepts/response-codes#azure-ai-foundry-error-messages
 
 
 ## Reference

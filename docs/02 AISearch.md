@@ -59,4 +59,5 @@ We created the `rg-ai-search-<your name>-uno` resource group previously.
 ![](imgs/add_container_storageaccount.png)
 
 * Click on the `Catalogs` Container created
-* Upload `*.pdf` files to the storage account
+* Add a Sub folder `Multifiles`
+* Upload `*.pdf` files to the storage account, sub folder ``Multifiles`

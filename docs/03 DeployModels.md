@@ -53,7 +53,7 @@
 
 ![](imgs/add_my_catalog_data.png)
 
-2. Select `<your pdf file>`, click next
+2. Select Sub folder `Multifiles` containing your uploaded pdf files, click next
 
 3. Name: `<your data name>`, create
 
@@ -64,7 +64,7 @@
 * `+ New Index`
     * Data source: Azure Blob Storage
     * Blob store: `my_catalog_data`
-    * Choose file to index
+    * Choose file or Sub folder to index
     * Next
 
 ![](imgs/add_index_to_project.png)
