@@ -1,4 +1,4 @@
-# Copilot Studio with Office365 and Azure Foundry
+# Copilot Studio with M365 and Azure Foundry
 
 ## Option 1 - agent connecting to Outlook Calendar
 This Agent will connect to user calendar or mailbox and call previously created connector with the information from the calendar event. You can also create a new agent.
